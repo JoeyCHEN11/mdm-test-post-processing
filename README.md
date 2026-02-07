@@ -8,7 +8,7 @@ This is a demo project for post-processing of coap on Human Motion Diffusion res
 - .npy results with [Human Motion Diffusion Model](https://github.com/GuyTevet/motion-diffusion-model)
     - MDM always uses beta=0 and the gender-neutral model
 - [SMPLX](https://smpl-x.is.tue.mpg.de/) body models
-- Currently, we use [COAP](self-intersection) for self-intersection detection
+- Currently, we use [COAP](https://github.com/markomih/COAP) for self-intersection detection
 
 ## Results
 
