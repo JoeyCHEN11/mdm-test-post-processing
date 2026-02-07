@@ -1,14 +1,14 @@
-# Self-Intersect Correction of MDM Results
+# Naive Self-Intersect Correction of MDM Results
 
-This is a demo project for post-processing of coap on mdm results.
+This is a demo project for post-processing of coap on Human Motion Diffusion results.
 
-- MDM always use beta=0 and the gender-neutral model
 
 ## Requirements
 
 - .npy results with [Human Motion Diffusion Model](https://github.com/GuyTevet/motion-diffusion-model)
+    - MDM always uses beta=0 and the gender-neutral model
 - [SMPLX](https://smpl-x.is.tue.mpg.de/) body models
-- Currently we use [COAP](self-intersection) for self-intersection detection
+- Currently, we use [COAP](self-intersection) for self-intersection detection
 
 ## Results
 
@@ -16,20 +16,20 @@ Because we just naively corrected each frame of the motion, the result is not su
 
 ### Before
 
-* Motion: Squat
+- Motion: Squat
 
   ![Squat](.\image\README\squat_before.gif)
 
-* Motion: Cross arms
+- Motion: Cross arms
 
   ![Hug](.\image\README\cross_before.gif)
 
 ### After
 
-* Motion: Squat
+- Motion: Squat
 
   ![Squat](.\image\README\squat_after.gif)
 
-* Motion: Cross arms
+- Motion: Cross arms
 
   ![Hug](.\image\README\cross_after.gif)
