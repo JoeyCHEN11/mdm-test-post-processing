@@ -18,18 +18,18 @@ Because we just naively corrected each frame of the motion, the result is not su
 
 - Motion: Squat
 
-  ![Squat](.\image\README\squat_before.gif)
+  ![Squat](./image/README/squat_before.gif)
 
 - Motion: Cross arms
 
-  ![Hug](.\image\README\cross_before.gif)
+  ![Hug](./image/README/cross_before.gif)
 
 ### After
 
 - Motion: Squat
 
-  ![Squat](.\image\README\squat_after.gif)
+  ![Squat](./image/README/squat_after.gif)
 
 - Motion: Cross arms
 
-  ![Hug](.\image\README\cross_after.gif)
+  ![Hug](./image/README/cross_after.gif)
